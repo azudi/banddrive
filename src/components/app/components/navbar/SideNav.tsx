@@ -22,7 +22,6 @@ import ServiceAccount from '../svg-icon/ServiceAccount'
 import SettlementsIcon from '../svg-icon/SettlementsIcon'
 import ReportsIcon from '../svg-icon/ReportsIcon'
 import { Avatar } from '@mantine/core';
-import { useAppStore } from '@/store/app.store'
 import React from 'react'
 import SearchInput from '@/components/shared/search-input/SearchInput'
 import { useInfoGetter } from '@/hook/getters/userInfoGetter'

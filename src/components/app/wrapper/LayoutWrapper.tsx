@@ -36,6 +36,11 @@ export default function RootDashboardLayout({ children }: Readonly<{ children: R
 
   return (
     <html lang="en">
+        <head>
+          <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+        </head>
+      
       <body className={appState.colorScheme === 'dark' ? "dark" : ""}>
         <MantineProvider theme={theme}>
           <div className='w-full flex justify-center h-[100vh] items-center bg-white dark:bg-black'>

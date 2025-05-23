@@ -1,0 +1,43 @@
+.location_display_info{
+    @apply text-sm flex items-start mb-1;
+    b{
+        @apply mr-3 capitalize whitespace-nowrap;
+    }
+    span{
+        @apply font-[300] inline-block w-full text-right
+    }
+}
+
+.country_display_info{
+    @apply text-sm  items-start mb-3 w-full;
+    p{
+        @apply opacity-70 mb-1;
+        b{
+            @apply opacity-50
+        }
+    }
+}
+
+.active {
+    @apply underline !font-[600];
+}
+
+.input_field_mini {
+    @apply w-full  mb-4;
+
+    label {
+        @apply mb-1 block w-full;
+        font-size: clamp(14px, 2vw, 15px);
+        line-height: clamp(18px, 2.2vw, 22px);
+    }
+
+    input {
+        @apply w-full border-[1px] border-gray-300 rounded-lg px-3 py-2 bg-transparent text-base outline-none;
+        font-size: clamp(14px, 2vw, 15px);
+        line-height: clamp(18px, 2.2vw, 22px);
+    }
+}
+
+.right_btn_wrapper{
+    @apply bg-banddrivegray-200 text-white py-2 rounded-md w-auto px-16
+}

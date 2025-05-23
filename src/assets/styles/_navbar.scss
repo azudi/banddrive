@@ -1,0 +1,9 @@
+.dashboard-card{ 
+  @apply bg-white rounded-xl p-4 px-5;
+  h2{
+      @apply text-[20px] font-bold
+  }
+  b{
+      @apply text-[11px] font-normal uppercase inline-block py-2
+  }
+}

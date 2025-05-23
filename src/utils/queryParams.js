@@ -1,7 +1,7 @@
-import { API_KEY } from "config";
+
 
 export const appendQueryParams = (params) => {
-  let authurisedParams = { api_key: API_KEY, ...params };
+  let authurisedParams = { ...params };
 
   
   let queryParams = Object.entries(authurisedParams)
